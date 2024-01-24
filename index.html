@@ -2,7 +2,7 @@
 <html>
 	
 <head>
-	<title>Daisy 8x8 CC Demo</title>
+	<title>Digital Space 8x8 CC Demo</title>
 </head>
 
 <nav>
@@ -46,7 +46,7 @@
 
 <script>
 window.CoBrowsingCustomStrings = {
-  "popup-title": "Daisy/8x8",
+  "popup-title": "DigitalSpace/8x8",
   "popup-close": "X",
   "popup-start-information": "Click Start to initialize the Co-browsing session and pass the session ID to the Agent.",
   "popup-sync-information": "You may have open another page that is currently being synchronized. Click Synchronize to synchronize this page instead.",
@@ -186,7 +186,7 @@ body {font-family: Arial, Helvetica, sans-serif; font-size: 1.2em;}
 
 <div class="form-popup" id="myForm">
   
-  <form name="WebCallBack" action="https://vcc-eu11.8x8.com/SC/webcallback.php" method="get"  oninput="extTransactionData.value = '[Name|' + fname.value +' '+ lname.value + '][Location|' + location.value + '][Reason|' + reason.value +']'">
+  <form name="WebCallBack" action="https://vcc-eu10.8x8.com/SC/webcallback.php" method="get"  oninput="extTransactionData.value = '[Name|' + fname.value +' '+ lname.value + '][Location|' + location.value + '][Reason|' + reason.value +']'">
 <input type="hidden" name="extTransactionData"/>
 <!--  You Need to change these -->
 <input type="hidden" name="tenant" value="daisycommunicatio01"/>
